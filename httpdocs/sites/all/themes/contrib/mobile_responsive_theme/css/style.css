@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=PT+Serif);
 
-/* --------------------------------------------- 
+/* ---------------------------------------------
 
 * Filename:     style.css
 * Version:      1.0.0 (2015-03-03)
@@ -22,8 +22,8 @@ small, strike, strong, sub, sup, tt, var,
 b, i, dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -34,7 +34,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -91,8 +91,8 @@ a {
   text-decoration:none;
 }
 
-a:hover { 
-  text-decoration: none; 
+a:hover {
+  text-decoration: none;
   color: #F34D41;
 }
 
@@ -322,7 +322,7 @@ audio {
   max-width:100%;
 }
 
-b{ 
+b{
   font-weight: bold;
   color: #333;
 }
@@ -333,7 +333,7 @@ b{
 }
 
 #header_wrapper{
-  background: #242D36;
+  background: #1e356e;
   border-bottom: 5px solid #F45145;
 }
 
@@ -342,7 +342,7 @@ b{
   margin: 0 auto;
 }
 
-.top_left{ 
+.top_left{
   float: left;
   margin: 11px 0;
 }
@@ -440,8 +440,8 @@ ul.menu{
   margin: 5px 0 5px 0;
 }
 
-.region ul.menu li, 
-.region ul.links li, 
+.region ul.menu li,
+.region ul.links li,
 .region .item-list ul li {
   background: url("../images/marker.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
   list-style: none outside none;
@@ -522,8 +522,8 @@ ul.menu{
   display:none;
 }
 
-#main-menu ul li.leaf, 
-#main-menu ul li.expanded, 
+#main-menu ul li.leaf,
+#main-menu ul li.expanded,
 #main-menu ul li.collapsed {
   list-style:none;
 }
@@ -642,7 +642,7 @@ ul.menu{
   width:100%;
 }
 
-#sidebar-first { 
+#sidebar-first {
   float: left;
 }
 
@@ -889,7 +889,7 @@ input.form-checkbox, input.form-radio {
 }
 
 /*-------------------------------------------*
-  Menus and item lists 
+  Menus and item lists
 /*-------------------------------------------*/
 
 .item-list ul {
@@ -1091,36 +1091,36 @@ ul.secondary a.active {
   height: 35px;
 }
 
-#forum .name a{ 
+#forum .name a{
   font-size: 16px;
 }
 
-img { 
+img {
   outline: 0;
   max-width: 100%;
   height: auto;
 }
 
-.comment h2.title { 
-  margin-bottom: 1em; 
+.comment h2.title {
+  margin-bottom: 1em;
 }
 
-.comment div.user-picture img { 
-  margin-left: 0; 
+.comment div.user-picture img {
+  margin-left: 0;
 }
 
-.comment { 
-  margin-bottom: 20px; 
-  vertical-align: top; 
+.comment {
+  margin-bottom: 20px;
+  vertical-align: top;
 }
 
-.comment .indented { 
-  margin-left: 40px; 
+.comment .indented {
+  margin-left: 40px;
 }
 
-.comment-unpublished { 
-  margin-right: 5px; 
-  padding: 5px 2px 5px 5px; 
+.comment-unpublished {
+  margin-right: 5px;
+  padding: 5px 2px 5px 5px;
 }
 
 .user-picture{
@@ -1145,68 +1145,68 @@ img {
   padding-bottom: 2%
 }
 
-fieldset { 
-  background: #ffffff; 
-  border: 1px solid #cccccc; 
-  margin-top: 10px; 
+fieldset {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  margin-top: 10px;
   margin-bottom: 32px;
-  padding: 0 0 10px; 
-  position: relative; 
+  padding: 0 0 10px;
+  position: relative;
   top: 12px;
-  -khtml-border-radius: 4px; 
-  -moz-border-radius: 4px; 
-  -webkit-border-radius: 4px; 
-  border-radius: 4px; 
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
 }
 
-.fieldset-wrapper { 
-  margin-top: 25px; 
+.fieldset-wrapper {
+  margin-top: 25px;
 }
 
 .field .field-label{ font-weight: normal; }
 
 .node-form .vertical-tabs .fieldset-wrapper {
-  margin-top: 0; 
+  margin-top: 0;
 }
 
-.filter-wrapper { 
+.filter-wrapper {
   top: 0; padding: 1em 0 0.2em;
-  -khtml-border-radius-topright: 0; 
-  -khtml-border-radius-topleft: 0; 
-  -moz-border-radius-topright: 0; 
+  -khtml-border-radius-topright: 0;
+  -khtml-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
   -moz-border-radius-topleft: 0;
-  -webkit-border-top-left-radius: 0; 
-  -webkit-border-top-right-radius: 0; 
-  border-top-left-radius: 0; 
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 
-.filter-help a { 
-  font-size: 0.857em; 
-  padding: 2px 20px 0; 
+.filter-help a {
+  font-size: 0.857em;
+  padding: 2px 20px 0;
 }
 
-.filter-wrapper .form-item label { 
-  margin-right: 10px; 
+.filter-wrapper .form-item label {
+  margin-right: 10px;
 }
 
-.filter-wrapper .form-item { 
-  padding: 0 0 0.5em 0.5em; 
+.filter-wrapper .form-item {
+  padding: 0 0 0.5em 0.5em;
 }
 
-.filter-guidelines { 
+.filter-guidelines {
   padding: 0 1.5em 0 0.5em;
 }
 
-fieldset.collapsed { 
+fieldset.collapsed {
   background: transparent;
-  -khtml-border-radius: 0; 
+  -khtml-border-radius: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
    border-radius: 0;
 }
 
-fieldset legend { 
+fieldset legend {
   background: #dbdbdb;
   border: 1px solid #ccc;
   border-bottom: none;
@@ -1219,21 +1219,21 @@ fieldset legend {
   text-indent: 10px;
   text-shadow: 0 1px 0 #fff;
   top: -12px; width: 100%;
-  -khtml-border-radius-topleft: 4px; 
-  -moz-border-radius-topleft: 4px; 
-  -webkit-border-top-left-radius: 4px; 
-  border-top-left-radius: 4px; 
-  -khtml-border-radius-topright: 4px; 
-  -moz-border-radius-topright: 4px; 
-  -webkit-border-top-right-radius: 4px; 
-  border-top-right-radius: 4px; 
+  -khtml-border-radius-topleft: 4px;
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -khtml-border-radius-topright: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
-fieldset.collapsed legend { 
-  -khtml-border-radius: 4px; 
-  -moz-border-radius: 4px; 
-  -webkit-border-radius: 4px; 
-  border-radius: 4px; 
+fieldset.collapsed legend {
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
 }
 
 fieldset .fieldset-wrapper {
@@ -1346,7 +1346,7 @@ ol.search-results {
   margin: 6% 0;
 }
 
-.top_right .region-user-menu ul.menu { 
+.top_right .region-user-menu ul.menu {
   float: right;
 }
 
@@ -1413,7 +1413,7 @@ ol.search-results {
 #footer {
   overflow: auto;
   margin: 0 auto;
-  background: #242D36;
+  background: #1e356e;
   border-top: 5px solid #1A2027;
 }
 
@@ -1454,7 +1454,7 @@ ol.search-results {
   background: #AAD20E;
 }
 
-.footer_credit p{ color: #aaa; width: 30%; padding: 1% 0; }
+.footer_credit p{ color: #aaa; width: 100%; padding: 1% 0; }
 
 #footer-area .column {
   float: left;
@@ -1468,7 +1468,7 @@ ol.search-results {
 }
 
 #copyright {
-  clear:both;    
+  clear:both;
   padding:1% 0px;
 }
 
@@ -1501,7 +1501,7 @@ ol.search-results {
 }
 
 .social-icons ul{ margin: 0; }
- 
+
 .social-icons li{
   display: inline-block;
 }
@@ -1528,7 +1528,7 @@ ol.search-results {
 
 .region-user-menu h2{ display: none; }
 
-.region-user-menu ul li{ 
+.region-user-menu ul li{
   display: inline-block;
   background: none;
   padding: 0 10px;
@@ -1544,11 +1544,11 @@ ol.search-results {
   Footer
 ----------------------------*/
 
-.footer_block{ 
+.footer_block{
   clear: both;
 }
 
-#footer .block > h2{ 
+#footer .block > h2{
   padding: 10px 0;
   color: #fff;
 }
@@ -1599,6 +1599,7 @@ ol.search-results {
 .user-menu-wrapper{
   width: 100%;
   overflow: hidden;
+  background: #1e356e;
 }
 
 .user-menu-wrapper ul.menu{
@@ -1633,16 +1634,16 @@ ol.search-results {
   float: right;
 }
 
-.region-contactno .block{ 
+.region-contactno .block{
   float: right;
 }
 
-.region-contactno h2, 
-.region-contactno .content{ 
-  float: left; 
-  margin: 0; 
+.region-contactno h2,
+.region-contactno .content{
+  float: left;
+  margin: 0;
   font-size: 16px;
-  padding: 10px 0px 10px 10px 
+  padding: 10px 0px 10px 10px
 }
 
 .region-contactno .content p{ padding: 0; margin: 0; }
@@ -1683,7 +1684,6 @@ ol.search-results {
 #user-login,
 #user-pass,
 #user-register-form{
-  max-width: 500px;
   margin: 2% auto;
   background: white;
   padding: 2% 3%;
@@ -1724,7 +1724,7 @@ div.warning{
 
 .top-msg-wrap{
   text-align: center;
-  padding: 1% 0;
+  padding: 0;
   box-shadow: 0 0 40px #000;
   z-index: 11;
   background: #fff;

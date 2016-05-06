@@ -178,7 +178,7 @@
   <div class="footer_credit">
 
     <div id="copyright">
-      <p class="copyright"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?></p>
+      <p class="copyright"><?php print t('Copyright'); ?>, <?php print 'Liink'; ?> &copy; <?php echo date("Y"); ?> | <?php echo l(t('Terms and Conditions'), '/terms-and-conditions'); ?> | <?php echo l(t('Send us your suggestion'), 'node/add/suggestion'); ?></p>
 
       <!-- Social Links -->
       <?php if (theme_get_setting('social_links', 'mobile_responsive_theme')): ?>

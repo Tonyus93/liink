@@ -1,0 +1,10 @@
+<?php
+
+function customizations_form_alter(&$form) {
+  global $user;
+  if(!in_array('superadmin', $user->roles) == TRUE) {
+    if($user->uid != 1) {
+      unset($form['field_verified']);
+    }
+  }
+}

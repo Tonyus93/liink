@@ -1,0 +1,4 @@
+name = customizations
+description = Some customizations for the portal
+package = custom
+core = 7.x
