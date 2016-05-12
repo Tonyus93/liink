@@ -2,7 +2,7 @@
 
 function commerce_ajax_cart_settings_form() {
   $defaults = variable_get('commerce_ajax_cart_position',commerce_ajax_cart_get_defaults()) ;
-
+  
   $views = views_get_enabled_views();
   $view_settings = array();
   foreach ( $views as $view_id => $view ) {
@@ -39,10 +39,10 @@ function commerce_ajax_cart_settings_form() {
     '#title' => t('Empty cart text'),
     '#default_value' => variable_get('commerce_ajax_cart_text', 'There is no product in your cart' )
   );
-
+  
   $form['view'] = array(
   		'#type' => 'select',
-  	  '#options' => $view_settings,
+  	  '#options' => $view_settings, 
   		'#title' => t('Empty cart text'),
   		'#default_value' => variable_get('commerce_ajax_cart_view', COMMERCE_AJAX_CART_DEFAULT_VIEW )
   );
